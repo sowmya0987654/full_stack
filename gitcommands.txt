@@ -1,0 +1,60 @@
+    2  pwd
+    3  is
+    4  ls
+    5  ls -a
+    6  clear
+    7  cd desktop/
+    8  cd DBMS/
+    9  cd ..
+   10  clear
+   11  mkdir fullstackdev
+   12  ls
+   13  cd fullstackdev/
+   14  touch full_stack.txt
+   15  ls
+   16  cat full_stack.txt
+   17  echo "full stack developer">full_stack.txt
+   18  cat full_stack.txt
+   19  echo "html and css">full_stack.txt
+   20  cat full_stack.txt
+   21  echo "javascript">>full_stack.txt
+   22  cat full_stack.txt
+   23  nano full_stack.txt
+   24  nano data.txt
+   25  ls
+   26  nano data.txt
+   27  ls
+   28  rm --help
+   29  rm data.txt
+   30  ls
+   31  mkdir GIT
+   32  ls
+   33  git init
+   34  git status
+   35  git add full_stack.txt
+   36  git status
+   37  git commit -m "first commit"
+   38  git config global user.email '221710315053@gitam.in'
+   39  git config --global user.email '221710315053@gitam.in'
+   40  git config --global user.name 'sowmya'
+   41  git config user.email
+   42  git config user.name
+   43  nano full_stack.txt
+   44  git status
+   45  git add full_stack.txt
+   46  git commit -m "second commit"
+   47  mkdir full_stack
+   48  ls
+   49  git remote full_stack http://github.com/sowmya0987654/full_stack
+   50  git remote add full_stack http://github.com/sowmya0987654/full_stack
+   51  git remote show
+   52  git remote -v
+   53  git pull full_stack master
+   54  git push -u full_stack
+   55  git push --set-upstream full_stack master
+   56  git push -f --set-upstream full_stack master
+   57  git remote --help
+   58  git remote -v
+   59  git remote --help
+   60  history
+   61  history 60 >gitcommands.txt
